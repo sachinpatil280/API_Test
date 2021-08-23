@@ -1,0 +1,6 @@
+test_data:
+  base_url: https://api.test.virta-ev.com/v4/stations
+  fromAndlimit: {"from":1, "limit": 15}
+  limit: {'limit':0}
+  coordinates: {"latMin":60.164101, "latMax":60.164104, "longMin":24, "longMax":25}
+  getstation_resp_model: ['id', 'latitude', 'longitude', 'icon', 'name', 'city', 'address', 'provider', 'evses', 'isRemoved', 'isPrivate']
